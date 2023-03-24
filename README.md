@@ -11,6 +11,10 @@ Our group project repo.
 |Shafiullah Hashimi|shashim5@gmu.edu|
 |Jim Banya|jbanya@gmu.edu|
 
+## Project Proposal
+
+The project proposal can be found [here](https://docs.google.com/document/d/16rTQRJq_3OJXuhi5SyP9XC9JVWHbSFvA59F33fbMlLA/edit).  
+
 ## Data Sources
 
 |Link|Description|
