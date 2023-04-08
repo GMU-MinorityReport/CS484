@@ -34,4 +34,4 @@ We're using tqdm to monitor the progress of our executing code. You'll need to d
 - ***Optional*** If we're using the time library, we'll also need to run: `pip install time`
 - Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
 
-The full environment setup document is available [here](https://github.com/GMU-MinorityReport/CS484/blob/main/documentation/Group_Project_Specs.pdf)
+The full environment setup document is available [here](https://github.com/GMU-MinorityReport/CS484/blob/main/documentation/environment_setup_guidance.pdf)
