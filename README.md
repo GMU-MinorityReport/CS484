@@ -15,6 +15,18 @@ Our group project repo.
 
 The project proposal can be found [here](https://docs.google.com/document/d/16rTQRJq_3OJXuhi5SyP9XC9JVWHbSFvA59F33fbMlLA/edit).  
 
+## Running the Minority Report Jupyter notebook
+
+We're using tqdm to monitor the progress of our executing code. You'll need to do the following in order to set it up (assuming you're running linux):  
+
+- From the command line interface (CLI), run the following command: `source activate cs484`
+- Next, execute the following: `pip install tqdm`.
+- ***Optional*** If we're using the time library, we'll also need to run: `pip install time`
+- Install the statsmodel library in order to use the statsmodel API. This can be done by running `conda install -c conda-forge statsmodels` or `python -m pip install statsmodels`
+- Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
+
+The full environment setup document is available [here](https://github.com/GMU-MinorityReport/CS484/blob/main/documentation/environment_setup_guidance.pdf)
+
 ## Data Sources
 
 |Link|Description|
@@ -25,13 +37,3 @@ The project proposal can be found [here](https://docs.google.com/document/d/16rT
 |[What's in a Name?](https://www.openicpsr.org/openicpsr/project/116023/version/V1/view)|Fictitious resumes sent for help-wanted ads in Boston & Chicago. Studied callbacks based on “White-sounding” vs. “African-American-sounding” names.|
 |[Government Labor Statistics](https://www.dol.gov/agencies/wb/data)|A rough schedule for the next five weeks until the midterm presentation is to convene once a week to begin analyzing these datasets through the data mining techniques discussed in lecture. Once we have some form of graphical representation detailing our preliminary results and theories, we will compile them for the video representation. Following the midterm presentation, we will resume the aforementioned schedule to see whether further techniques can help eliminate the causal features that produced any discriminatory results. We will compile these results for a side-by-side comparison of what will hopefully be a marked improvement in representation from what the original data may have depicted.|
 
-## Helpful Tips
-
-We're using tqdm to monitor the progress of our executing code. You'll need to do the following in order to set it up (assuming you're running linux):  
-
-- From the command line interface (CLI), run the following command: `source activate cs484`
-- Next, execute the following: `pip install tqdm`.
-- ***Optional*** If we're using the time library, we'll also need to run: `pip install time`
-- Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
-
-The full environment setup document is available [here](https://github.com/GMU-MinorityReport/CS484/blob/main/documentation/environment_setup_guidance.pdf)
