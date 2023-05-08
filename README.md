@@ -20,10 +20,11 @@ The project proposal can be found [here](https://docs.google.com/document/d/16rT
 We're using several python libraries.  You'll need to do the following in order to set it up (assuming you're running linux):  
 
 1. From the command line interface (CLI), run the following command: `source activate cs484`
-2. execute the following: `pip install tqdm`.
-3. : `pip install time`
+2. Execute the following: `pip install tqdm`.
+3. Execute the following: `pip install time`
 4. Install the statsmodel library in order to use the statsmodel API. This can be done by running `conda install -c conda-forge statsmodels` or `python -m pip install statsmodels`
-5. Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
+5. Execute the following: `pip install plotly`
+6. Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
 
 The full environment setup document is available [here](https://github.com/GMU-MinorityReport/CS484/blob/main/documentation/environment_setup_guidance.pdf)
 
