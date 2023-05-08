@@ -17,13 +17,13 @@ The project proposal can be found [here](https://docs.google.com/document/d/16rT
 
 ## Running the Minority Report Jupyter notebook
 
-We're using tqdm to monitor the progress of our executing code. You'll need to do the following in order to set it up (assuming you're running linux):  
+We're using several python libraries.  You'll need to do the following in order to set it up (assuming you're running linux):  
 
-- From the command line interface (CLI), run the following command: `source activate cs484`
-- Next, execute the following: `pip install tqdm`.
-- ***Optional*** If we're using the time library, we'll also need to run: `pip install time`
-- Install the statsmodel library in order to use the statsmodel API. This can be done by running `conda install -c conda-forge statsmodels` or `python -m pip install statsmodels`
-- Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
+1. From the command line interface (CLI), run the following command: `source activate cs484`
+2. execute the following: `pip install tqdm`.
+3. : `pip install time`
+4. Install the statsmodel library in order to use the statsmodel API. This can be done by running `conda install -c conda-forge statsmodels` or `python -m pip install statsmodels`
+5. Once done, you can deactivate the environment by typing in the following command: `conda deactivate`
 
 The full environment setup document is available [here](https://github.com/GMU-MinorityReport/CS484/blob/main/documentation/environment_setup_guidance.pdf)
 
